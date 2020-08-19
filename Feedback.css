@@ -1,0 +1,140 @@
+body
+ {
+  font-family: B612;
+  background-color: #f2f4f7
+ }
+ 
+.nav
+ {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+ }
+
+.nav a
+ {
+  float: left;
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+ }
+
+.nav a:hover
+ {
+  background-color: #000;
+ }
+
+.nav a.active
+ {
+  background-color: #ff0000;
+ }
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px)
+ {
+  .nav a
+   {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+   }
+ }
+
+ul
+ {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+ }
+
+li
+ {
+  float: left;
+ }
+
+li a
+ {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+
+li a:hover:not(.active)
+ {
+  background-color: #111;
+ }
+
+.active
+ {
+  background-color: #4CAF50;
+ }
+ 
+ .container
+  {
+   font-size: 20px;
+   top:20px;
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding-top: 15px;
+   padding-bottom: 20px;
+   text-align:center;
+   width: 50%;
+   vertical-align:middle;
+  }
+
+ input[type=text], select, textarea
+  {
+   width: 50%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+  }
+  input[type=file], select, textarea
+  {
+   width: 50%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+  }
+
+ input[type=submit]
+  {
+   background-color: blue;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 20px;
+   width: 40%;
+  }
+
+ input[type=submit]:hover
+  {
+   background-color: #cc0c0c;
+  }
+  
+footer
+ {
+  background-color:red;
+  color:white;
+ }

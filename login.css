@@ -1,0 +1,74 @@
+body
+{
+	font-family:Tahoma,Geneva, sans-serif;
+	color:RED;
+	background:url(3.webp);
+	background-size:cover;
+}
+.signin
+{
+	background:rgba(49,69,70,0.7);
+	padding:48px;
+	width:250px;
+	margin:auto;
+	margin-top:80px;
+	height:400px;
+	margin-left:180px;
+	text-align:center;
+}
+form
+{
+	width:240px;
+	text-align:center-right;
+}
+input
+{
+	width:240px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	font-family:'Play',sans-serif;
+	font-size:16px;
+	font-weight:200px;
+	padding:10px 0;
+	transition:border 0.5s;
+	outline:none;
+	color:#fff;
+}
+input[type=button]
+{
+	border:none;
+	width:190px;
+	background:white;
+	color:#000;
+	font-size:16px;
+	line-height:25px;
+	padding:10px 0;
+	border-radius:15px;
+	cursor:pointer;
+}
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  text-align:center;
+  font-size:10px;
+}
+input[type=button]:hover
+{
+	color:#fff;
+	background-color:black;
+}
+a
+{
+	color:yellow;
+	text-decoration:blink;
+}
+a:hover
+{
+	color:skyblue;
+}
